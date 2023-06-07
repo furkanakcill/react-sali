@@ -63,9 +63,12 @@ class Detail extends Component {
               <td>TOPLAM TUTAR:{this.calculateTotalPrice()} </td>
               
               <td>
-              <Button>
-                <Link to="/pay">BUY</Link>
-                  </Button>
+              <Button
+              color="success"
+              >
+                <Link 
+                to="/pay">BUY</Link>
+                </Button>
               </td>
             </tr>
           </tfoot>
