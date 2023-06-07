@@ -67,7 +67,8 @@ class Detail extends Component {
               color="success"
               >
                 <Link 
-                to="/pay">BUY</Link>
+                  to="/pay">BUY
+                </Link>
                 </Button>
               </td>
             </tr>
