@@ -10,30 +10,24 @@ import {
   MDBRadio,
   MDBRow,
 } from "mdb-react-ui-kit";
-import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as cartActions from "../../redux/actions/cartActions";
-import alertify from "alertifyjs";
+
 
 
 class Pay extends Component {
 
-  // removeFromCart(product) {
-  //   this.props.actions.removeFromCart(product);
-  //   alertify.error(product.productName + " removed from cart!");
-  // }
+  calculateTotalPrice(){
+    let totalPrice = 0;
+    this.props.cart.map((cartItem) => {
+      totalPrice += cartItem.product.price * cartItem.quantity;
+    });
+    return totalPrice;
+  }
 
   render() {
-    const calculateTotalPrice = () => {
-      let totalPrice = 0;
-      this.props.cart.map((cartItem) => {
-        totalPrice +=
-          Number(cartItem.product.price) * Number(cartItem.quantity);
-      });
-      return totalPrice;
-    };
-
+    
     return (
       <MDBContainer fluid className="py-5" style={{ backgroundColor: "#eee" }}>
         <MDBRow className="d-flex justify-content-center">
@@ -74,7 +68,7 @@ class Pay extends Component {
                           Total amount due
                         </p>
                         <h6 className="mb-0 text-primary">
-                          {calculateTotalPrice()}
+                          {this.calculateTotalPrice()}
                         </h6>
                       </div>
                     </div>
