@@ -6,8 +6,8 @@ import * as categoryActions from "../../redux/actions/categoryActions";
 import * as productActions from "../../redux/actions/productActions";
 
 class Categories extends Component {
-  componentDidMount() { 
-    this.props.actions.getCategories();
+  componentDidMount() {  
+    this.props.actions.getCategories(); 
   }
 
   selectCategory = (category) => {
