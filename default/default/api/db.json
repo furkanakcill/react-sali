@@ -1,0 +1,265 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "groupId": 2,
+      "staffName": "Chai",     
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    
+    },
+    {
+      "id": 2,
+      "groupId": 1,
+      "staffName": "Chang",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 4,
+      "groupId": 1,
+      "staffName": "Chef Anton's Cajun Seasoning",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 5,
+      "groupId": 2,
+      "staffName": "Chef Anton's Gumbo Mix",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 6,
+      "groupId": 2,
+      "staffName": "Grandma's Boysenberry Spread",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 7,
+      "groupId": 7,
+      "staffName": "Uncle Bob's Organic Dried Pears",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 8,
+      "groupId": 2,
+      "staffName": "Northwoods Cranberry Sauce",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 9,
+      "groupId": 6,
+      "staffName": "Mishi Kobe Niku",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 10,
+      "groupId": 8,
+      "staffName": "Ikura",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 11,
+      "groupId": 4,
+      "staffName": "Queso Cabrales",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 12,
+      "groupId": 4,
+      "staffName": "Queso Manchego La Pastora",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 13,
+      "groupId": 8,
+      "staffName": "Konbu",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 14,
+      "groupId": 7,
+      "staffName": "Tofu",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 15,
+      "groupId": 2,
+      "staffName": "Genen Shouyu",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 16,
+      "groupId": 3,
+      "staffName": "Pavlova",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 17,
+      "groupId": 6,
+      "staffName": "Guiza",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 18,
+      "groupId": 8,
+      "staffName": "Carnarvon Tigers",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 19,
+      "groupId": 3,
+      "staffName": "Teatime Chocolate Biscuits",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 20,
+      "groupId": 3,
+      "staffName": "Sir Rodney's Marmalade",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 21,
+      "groupId": 3,
+      "staffName": "Sir Rodney's Scones",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 22,
+      "groupId": 5,
+      "staffName": "Gustaf's Knäckebröd",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 23,
+      "groupId": 5,
+      "staffName": "Tunnbröd",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 24,
+      "groupId": 1,
+      "staffName": "Guaraná Fantástica",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 25,
+      "groupId": 3,
+      "staffName": "NuNuCa Nuß-Nougat-Creme",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 26,
+      "groupId": 3,
+      "staffName": "Gumbär Gummibärchen",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 27,
+      "groupId": 3,
+      "staffName": "Schoggi Schokolade",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 28,
+      "groupId": 7,
+      "staffName": "Rössle Sauerkraut",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 29,
+      "groupId": 6,
+      "staffName": "Thüringer Rostbratwurst",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 30,
+      "groupId": 8,
+      "staffName": "Nord-Ost Matjeshering",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 31,
+      "groupId": 4,
+      "staffName": "Gorgonzola Telino",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    },
+    {
+      "id": 32,
+      "groupId": 4,
+      "staffName": "Mascarpone Fabioli",
+      "image":"images/staff.jpg",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sagittis odio."
+    }  
+   
+  ],
+  "group": [
+    {
+      "id": 1,
+      "groupName": "Ödeme Sistemleri"
+     
+    },
+    {
+      "id": 2,
+      "groupName": "Yazılım Mimarisi"
+     
+    },
+    {
+      "id": 3,
+      "groupName": "Kart Sistemleri"
+     
+    },
+    {
+      "id": 4,
+      "groupName": "İnsan Kaynakları"
+    
+    },
+    {
+      "id": 5,
+      "groupName": "Mobil Yazılım Geliştirme"
+     
+    },
+    {
+      "id": 6,
+      "groupName": "Bilgi Güvenliği"
+     
+    },
+    {
+      "id": 7,
+      "groupName": "Ağ Sistemleri"
+     
+    },
+    {
+      "id": 8,
+      "groupName": "Muhasebe"
+     
+    }
+  ]
+}
