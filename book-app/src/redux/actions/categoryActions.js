@@ -19,4 +19,3 @@ export function getCategories() {
             .then((result) => dispatch(getCategoriesSuccess(result)));
     };
 }
-
