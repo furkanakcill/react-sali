@@ -12,9 +12,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faHome,
   faUser,
+  faBook,
+  faStar,
+  faAdd,
+  faUserPlus,
   faShoppingCart,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
+import CartDetail from './CartDetail'
 
 export default class Header extends Component {
     constructor(props) {
@@ -52,7 +57,7 @@ export default class Header extends Component {
                   <Nav className="mr-auto" navbar>
                     <NavItem>
                       <NavLink>
-                        <FontAwesomeIcon icon={faUser} />
+                        <FontAwesomeIcon icon={faUserPlus} />
                         <Link
                           style={{ textDecoration: 'none', color: 'white' }}
                           to={'/register'}
@@ -72,6 +77,43 @@ export default class Header extends Component {
                         </Link>
                       </NavLink>
                     </NavItem>
+                    <NavItem>
+                      <NavLink>
+                        <FontAwesomeIcon icon={faAdd} />
+                        <Link
+                          style={{ textDecoration: 'none', color: 'white' }}
+                          to={'/addBook'}
+                        >
+                          Add Books
+                        </Link>
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink>
+                        <FontAwesomeIcon icon={faStar} />
+                        <Link
+                          style={{ textDecoration: 'none', color: 'white' }}
+                          to={'/favorites'}
+                        >
+                          Favorites
+                        </Link>
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink>
+                        <FontAwesomeIcon icon={faBook} />
+                        <Link
+                          style={{ textDecoration: 'none', color: 'white' }}
+                          to={'/books'}
+                        >
+                          Books
+                        </Link>
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <CartDetail/>
+                    </NavItem>
+S
                   </Nav>
       
       
@@ -87,5 +129,4 @@ export default class Header extends Component {
           )
         }
     }
-
 
